@@ -24,7 +24,6 @@ public class UserController {
     @Reference//远程注入
     private UserService userService;
 
-
     @RequestMapping("/sayHello")
     public String sayHello(){
         return userService.sayHello();
