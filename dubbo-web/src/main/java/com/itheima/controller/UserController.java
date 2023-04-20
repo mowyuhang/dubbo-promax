@@ -18,6 +18,7 @@ public class UserController {
         1. 从zookeeper注册中心获取userService的访问url
         2. 进行远程调用RPC
         3. 将结果封装为一个代理对象。给变量赋值
+        4. test
 
      */
 
