@@ -8,7 +8,7 @@ public interface UserService {
     public String sayHello();
 
     /**
-     * 查询用户1
+     * 查询用户
      */
     public User findUserById(int id);
 }
